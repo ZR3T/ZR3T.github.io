@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JsCalculator</title>
+        <script src='script.js'></script>
+        <link rel='stylesheet' href='style.css'> 
+        <meta charset='UTF-8'>
+    </head>
+    <body>
+        <table>
+            <tr>
+            <th th colspan= '4'><input type='text' id='field'></th>
+            </tr>
+            
+            <tr>
+                <th><button id='7' onclick='document.getElementById("field").value+= "7"'>7</button></th>
+                <th><button id='8' onclick='document.getElementById("field").value+= "8"'>8</button></th>
+                <th><button id='9' onclick='document.getElementById("field").value+= "9"'>9</button></th>
+                <th><button id='/' onclick='document.getElementById("field").value+= " / "'>/</button></th>
+            </tr>
+            <tr>
+                <th><button id='4' onclick='document.getElementById("field").value+= "4"'>4</button></th>
+                <th><button id='5' onclick='document.getElementById("field").value+= "5"'>5</button></th>
+                <th><button id='6' onclick='document.getElementById("field").value+= "6"'>6</button></th>
+                <th><button id='x' onclick='document.getElementById("field").value+= " * "'>*</button></th>
+            </tr>
+            <tr>
+                <th><button id='1' onclick='document.getElementById("field").value+= "1"'>1</button></th>
+                <th><button id='2' onclick='document.getElementById("field").value+= "2"'>2</button></th>
+                <th><button id='3' onclick='document.getElementById("field").value+= "3"'>3</button></th>
+                <th><button id='-' onclick='document.getElementById("field").value+= " - "'>-</button></th>
+            </tr>
+            <tr>
+                <th><button id='.' onclick='document.getElementById("field").value+= "."'>.</button></th>
+                <th><button id='0' onclick='document.getElementById("field").value+= "0"'>0</button></th>
+                <th colspan= '2'><button id='plus' onclick='document.getElementById("field").value+= " + "'>+</button></th>
+            </tr>
+            <tr>
+                <th colspan= '2'><button id='AC' onclick='document.getElementById("field").value= ""'>AC</button></th>
+                <th colspan= '2'><button id='equals' onclick='endVal()'>=</button></th>
+            </tr>
+        </table>
+    </body>
+</html>

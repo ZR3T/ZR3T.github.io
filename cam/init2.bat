@@ -1,0 +1,1 @@
+START /MIN CMD.EXE /C init1.bat

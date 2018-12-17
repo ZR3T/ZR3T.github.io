@@ -1,0 +1,21 @@
+body {
+    font-family: Courier;
+    color:#A7A502
+}
+
+h1 {
+    border-bottom: 3px double #A7A502;
+}
+
+p {
+    font-size: 18px;    
+}
+
+button {
+    background-color:#c1c1c1;
+    font-size: 20px;
+    font-family: Courier;
+    padding: 10px;
+    background-color:#c1c1c1;
+    border-radius: 10px;
+}
