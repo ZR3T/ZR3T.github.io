@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id='tits'>Steve's Site</title>
+        <style>
+            body {
+                background-color: #008080;
+                font-family: Courier;
+                color: white;
+                font-weight: bold;
+            }
+            
+            button {
+                font-family: inherit;
+                width: 70px;
+                height: 40px;
+                border: 2px solid;
+                border-radius: 5px;
+                font-weight: bold;
+                color: white;
+                background-color: #005682;
+            }
+        </style>
+        <script>
+            function init(){
+                document.getElementById('urls').innerHTML = window.location.href;
+                
+                document.getElementById('heads').innerHTML = document.title;
+
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id='heads'></h1>
+        <h2 id='urls'></h2>
+        <button onclick='init()'>Click</button>
+    </body>
+</html>
